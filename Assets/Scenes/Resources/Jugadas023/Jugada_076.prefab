@@ -1,0 +1,1812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Visitante6
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 33: {fileID: 3300002}
+  - 23: {fileID: 2300002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Local5
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 33: {fileID: 3300004}
+  - 23: {fileID: 2300004}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Porteria
+  m_TagString: Porteria
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 33: {fileID: 3300006}
+  - 23: {fileID: 2300006}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: Visitante11
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: Jugada_076
+  m_TagString: Jugada
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 33: {fileID: 3300008}
+  - 23: {fileID: 2300008}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: Local4
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 33: {fileID: 3300010}
+  - 23: {fileID: 2300010}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: Visitante9
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 33: {fileID: 3300012}
+  - 23: {fileID: 2300012}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: Local10
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 33: {fileID: 3300014}
+  - 23: {fileID: 2300014}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: Visitante4
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  m_Layer: 0
+  m_Name: EquipoLocal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 33: {fileID: 3300016}
+  - 23: {fileID: 2300016}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: Local2
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 33: {fileID: 3300018}
+  - 23: {fileID: 2300018}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: Local3
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 33: {fileID: 3300020}
+  - 23: {fileID: 2300020}
+  - 114: {fileID: 11400022}
+  m_Layer: 0
+  m_Name: Local1
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  - 33: {fileID: 3300022}
+  - 23: {fileID: 2300022}
+  - 114: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: Local9
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400028}
+  - 33: {fileID: 3300024}
+  - 23: {fileID: 2300024}
+  - 114: {fileID: 11400026}
+  m_Layer: 0
+  m_Name: Local8
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400030}
+  m_Layer: 0
+  m_Name: EquipoVisitante
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400032}
+  - 33: {fileID: 3300026}
+  - 23: {fileID: 2300026}
+  - 114: {fileID: 11400028}
+  m_Layer: 0
+  m_Name: Visitante7
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400034}
+  - 33: {fileID: 3300028}
+  - 23: {fileID: 2300028}
+  - 114: {fileID: 11400030}
+  m_Layer: 0
+  m_Name: Visitante1
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400036}
+  - 33: {fileID: 3300030}
+  - 23: {fileID: 2300030}
+  - 114: {fileID: 11400032}
+  m_Layer: 0
+  m_Name: Visitante10
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400038}
+  - 33: {fileID: 3300032}
+  - 23: {fileID: 2300032}
+  - 114: {fileID: 11400034}
+  m_Layer: 0
+  m_Name: Local7
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400040}
+  - 33: {fileID: 3300034}
+  - 23: {fileID: 2300034}
+  - 114: {fileID: 11400036}
+  m_Layer: 0
+  m_Name: Local11
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100042
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400042}
+  - 33: {fileID: 3300036}
+  - 23: {fileID: 2300036}
+  - 114: {fileID: 11400038}
+  m_Layer: 0
+  m_Name: Visitante8
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400044}
+  - 33: {fileID: 3300038}
+  - 23: {fileID: 2300038}
+  - 114: {fileID: 11400040}
+  m_Layer: 0
+  m_Name: Local6
+  m_TagString: Local
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100046
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400046}
+  - 33: {fileID: 3300040}
+  - 23: {fileID: 2300040}
+  - 114: {fileID: 11400042}
+  m_Layer: 0
+  m_Name: Visitante3
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100048
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400048}
+  - 33: {fileID: 3300042}
+  - 23: {fileID: 2300042}
+  - 114: {fileID: 11400044}
+  m_Layer: 0
+  m_Name: Visitante2
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100050
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400050}
+  - 33: {fileID: 3300044}
+  - 23: {fileID: 2300044}
+  - 114: {fileID: 11400046}
+  m_Layer: 0
+  m_Name: Visitante5
+  m_TagString: Visitante
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 16.6145267, y: .100000001, z: -.151441172}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 6
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -10.7307215, y: .100000001, z: 14.6153288}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 4
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: .0606171787, y: -.852653384, z: .0785432458, w: .512970567}
+  m_LocalPosition: {x: 54.3626556, y: 1.51655114, z: 3.45111585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400008}
+  m_RootOrder: 2
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: -.896606505, y: .100000001, z: 21.2781734}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 1
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400018}
+  - {fileID: 400030}
+  - {fileID: 400004}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -25.9781685, y: .100000001, z: -19.6026974}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 3
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 35.6580124, y: .100000001, z: 8.93979645}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 3
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -15.2114458, y: .100000001, z: 12.7091188}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 9
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 5.32910395, y: .100000001, z: .316824079}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 8
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400024}
+  - {fileID: 400020}
+  - {fileID: 400022}
+  - {fileID: 400010}
+  - {fileID: 400002}
+  - {fileID: 400040}
+  - {fileID: 400038}
+  - {fileID: 400028}
+  - {fileID: 400026}
+  - {fileID: 400014}
+  - {fileID: 400044}
+  m_Father: {fileID: 400008}
+  m_RootOrder: 0
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: -17.4542084, y: .100000001, z: -2.3023665}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 1
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -32.4894409, y: .100000001, z: 16.6937389}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 2
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -51.1177216, y: .100000001, z: .129235089}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 0
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -29.3496914, y: .100000001, z: -17.6482735}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 8
+--- !u!4 &400028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_LocalRotation: {x: 0, y: -.707106948, z: 0, w: .70710665}
+  m_LocalPosition: {x: -9.85129642, y: .100000001, z: -2.80520558}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 7
+--- !u!4 &400030
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400048}
+  - {fileID: 400006}
+  - {fileID: 400036}
+  - {fileID: 400012}
+  - {fileID: 400042}
+  - {fileID: 400032}
+  - {fileID: 400000}
+  - {fileID: 400050}
+  - {fileID: 400016}
+  - {fileID: 400046}
+  - {fileID: 400034}
+  m_Father: {fileID: 400008}
+  m_RootOrder: 1
+--- !u!4 &400032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: .767922103, y: .100000001, z: -12.8016863}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 5
+--- !u!4 &400034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 51.0531387, y: .100000001, z: -.21814847}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 10
+--- !u!4 &400036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_LocalRotation: {x: 0, y: -.707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: 32.8601341, y: .100000001, z: 16.6132374}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 2
+--- !u!4 &400038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -17.7136517, y: .100000001, z: -13.1838484}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 6
+--- !u!4 &400040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: -35.9723358, y: .100000001, z: -7.44545698}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 5
+--- !u!4 &400042
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 35.1610641, y: .100000001, z: -11.8336754}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 4
+--- !u!4 &400044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
+  m_LocalPosition: {x: -25.8098068, y: .100000001, z: 8.40651417}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400018}
+  m_RootOrder: 10
+--- !u!4 &400046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 15.7410479, y: .100000001, z: -13.9193487}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 9
+--- !u!4 &400048
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 14.3718853, y: .100000001, z: 15.5323658}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 0
+--- !u!4 &400050
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
+  m_LocalPosition: {x: 34.1137009, y: .100000001, z: -4.17587757}
+  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_Children: []
+  m_Father: {fileID: 400030}
+  m_RootOrder: 7
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300002
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300004
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300006
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300008
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300010
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300012
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300014
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300016
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300018
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300020
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300022
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300024
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300026
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300028
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300030
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300032
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300034
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300036
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300038
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f24e89d550cd0f94a8489ce9a4bfe0a7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300040
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300042
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2300044
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 8bb358324b3c2654e89a38a495d98416, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300002
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300004
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300006
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300008
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300010
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300012
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300014
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300016
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300018
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300020
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300022
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300024
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300026
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300028
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300030
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300032
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300034
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300036
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300038
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300040
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300042
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3300044
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b7bb20f2cf845238b7616074978e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Radio: 1
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b854d9e59384e339fddf5039c51e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumInteractiveActions: 11
+  NumPases: 9
+  NumRegates: 1
+  NumChuts: 1
+  Text: '{"takeName":"Jugada_076","inits":[{"type":"position","typeExtra":null,"go":"Balon","position":{"x":-25.6670284,"y":0.2,"z":-19.3757744},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local4","position":{"x":-25.9781685,"y":0.1,"z":-19.6026974},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local2","position":{"x":-17.4542084,"y":0.1,"z":-2.3023665},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local8","position":{"x":-9.851296,"y":0.1,"z":-2.80520558},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local11","position":{"x":-35.9723358,"y":0.1,"z":-7.445457},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local7","position":{"x":-17.7136517,"y":0.1,"z":-13.1838484},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local10","position":{"x":-15.2114458,"y":0.1,"z":12.7091188},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local9","position":{"x":-29.3496914,"y":0.1,"z":-17.6482735},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local5","position":{"x":-10.7307215,"y":0.1,"z":14.6153288},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local6","position":{"x":-25.8098068,"y":0.1,"z":8.406514},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Local3","position":{"x":-32.48944,"y":0.1,"z":16.6937389},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante7","position":{"x":0.7679221,"y":0.1,"z":-12.8016863},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante4","position":{"x":5.329104,"y":0.1,"z":0.316824079},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante3","position":{"x":15.7410479,"y":0.1,"z":-13.9193487},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante6","position":{"x":16.6145267,"y":0.1,"z":-0.151441172},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante11","position":{"x":-0.8966065,"y":0.1,"z":21.2781734},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante2","position":{"x":14.3718853,"y":0.1,"z":15.5323658},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante9","position":{"x":35.6580124,"y":0.1,"z":8.939796},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante10","position":{"x":32.8601341,"y":0.1,"z":16.6132374},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante8","position":{"x":35.1610641,"y":0.1,"z":-11.8336754},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null},{"type":"position","typeExtra":null,"go":"Visitante5","position":{"x":34.1137,"y":0.1,"z":-4.17587757},"rotation":null,"floats":null,"strings":null,"stringsExtra":null,"_int":0,"_long":0,"_double":0,"_vect2":null,"_color":null,"_rect":null}],"actions":[{"method":"sendmessage","go":"Local4","delay":0,"time":0,"easeType":0,"customEase":null,"strings":["Balon"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"invokemethod","go":"Local4","delay":2.45833325,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local2","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.7,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.7,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"invokemethod","go":"Local4","delay":15.458333,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local2","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.35,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.35,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"invokemethod","go":"Local4","delay":22.958334,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local7","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.45,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.35,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"moveto","go":"Local4","delay":0,"time":4.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-16.1297569,"y":0.1,"z":-12.7050161}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":4.375,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-11.5506029,"y":0.1,"z":-9.03437}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":6.25,"time":3.70833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-4.038018,"y":0.1,"z":-19.96784}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":9.958333,"time":5.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.6727486,"y":0.1,"z":-11.6922636}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":15.458333,"time":1.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.6727486,"y":0.1,"z":-11.6922636}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":17.083334,"time":2.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.4387779,"y":0.1,"z":-5.793603}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":19.958334,"time":4.16666651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.0993862,"y":0.1,"z":-18.2853527}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":24.125,"time":2.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":34.3202057,"y":0.1,"z":-24.3305054}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":26.75,"time":1.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.3695869,"y":0.1,"z":-19.7036114}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":28.375,"time":2.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.7224178,"y":0.1,"z":-11.7226963}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local4","delay":31.25,"time":4.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":39.72895,"y":0.1,"z":-4.05544233}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":0,"time":3.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-17.4542084,"y":0.1,"z":-2.3023665}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":3.625,"time":5.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-5.180149,"y":0.1,"z":3.02104568}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":8.875,"time":6.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.6868773,"y":0.1,"z":-3.944817}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":15.125,"time":0.9583333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.6868773,"y":0.1,"z":-3.944817}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":16.083334,"time":4.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":24.5469322,"y":0.1,"z":8.35948849}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":20.208334,"time":4.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.1924515,"y":0.1,"z":-3.65878987}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":24.583334,"time":3.95833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.3919468,"y":0.1,"z":-11.4039116}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":28.541666,"time":3.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.6330929,"y":0.1,"z":-0.484069973}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":32.3333321,"time":1.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.6330929,"y":0.1,"z":-0.484069973}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local2","delay":33.5833321,"time":2.41666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.883358,"y":0.1,"z":-1.11717594}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"invokemethod","go":"Local2","delay":5.95833349,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local8","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.75,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.75,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"invokemethod","go":"Local2","delay":17.958334,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local10","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.3,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.3,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"moveto","go":"Local8","delay":0,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-6.37907076,"y":0.1,"z":3.74071956}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":3,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":1.88088119,"y":0.1,"z":-0.874858856}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":6.08333349,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-3.26811934,"y":0.1,"z":-7.473879}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":9.125,"time":3.41666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.2275095,"y":0.1,"z":-9.422778}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":12.541667,"time":3.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":11.0118217,"y":0.1,"z":0.8626407}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":16.125,"time":3.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":20.1578121,"y":0.1,"z":9.588412}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":19.916666,"time":1.83333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":20.1578121,"y":0.1,"z":9.588412}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":21.75,"time":3.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.6545982,"y":0.1,"z":0.14498207}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":25.375,"time":1.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.6545982,"y":0.1,"z":0.14498207}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":27,"time":3.41666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":34.8325,"y":0.1,"z":9.385584}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":30.416666,"time":2,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.9859962,"y":0.1,"z":2.745161}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local8","delay":32.4166679,"time":2.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":45.587986,"y":0.1,"z":0.6727763}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"invokemethod","go":"Local8","delay":8.083333,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local7","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.5,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.5,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"moveto","go":"Local11","delay":0,"time":12.166667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":1.619854,"y":0.1,"z":-5.323733}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local11","delay":12.166667,"time":4.66666651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":8.084138,"y":0.1,"z":9.755494}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local11","delay":16.833334,"time":5.04166651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":16.5686512,"y":0.1,"z":-5.90319633}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local11","delay":21.875,"time":5.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":29.3341942,"y":0.1,"z":-17.6227779}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local11","delay":27.125,"time":4.95833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.5084572,"y":0.1,"z":-1.17297816}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local11","delay":32.0833321,"time":3.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":50.5772972,"y":0.1,"z":-2.204856}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":0,"time":0.7916667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-17.7136517,"y":0.1,"z":-13.1838484}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":0.7916667,"time":3.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-12.191967,"y":0.1,"z":-4.780606}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":4.16666651,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-5.48095655,"y":0.1,"z":-10.0525665}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":6.91666651,"time":7,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":16.1684761,"y":0.1,"z":-16.4071922}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":13.916667,"time":3.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":10.125227,"y":0.1,"z":-5.2605443}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":17.375,"time":5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.8784447,"y":0.1,"z":-20.579813}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":22.375,"time":4.04166651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.2360458,"y":0.1,"z":-23.1278}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":26.416666,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.3395653,"y":0.1,"z":-13.1052485}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":29.458334,"time":0.9166667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.3395653,"y":0.1,"z":-13.1052485}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":30.375,"time":1.91666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":41.73294,"y":0.1,"z":-12.0788059}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local7","delay":32.2916679,"time":2.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":50.841053,"y":0.1,"z":-7.524995}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"invokemethod","go":"Local7","delay":12,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local4","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.4,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.4,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"invokemethod","go":"Local7","delay":27.458334,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local11","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.37,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.37,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"moveto","go":"Local10","delay":0,"time":1.29166663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-15.2114458,"y":0.1,"z":12.7091188}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":1.29166663,"time":4.83333349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-5.20742035,"y":0.1,"z":20.24208}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":6.125,"time":5.54166651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":3.162923,"y":0.1,"z":7.829302}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":11.666667,"time":4.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.2749043,"y":0.1,"z":12.6528406}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":16.166666,"time":5.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":25.4480057,"y":0.1,"z":-3.910152}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":21.666666,"time":4.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.20946,"y":0.1,"z":-11.1612864}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":25.916666,"time":3.54166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.45809,"y":0.1,"z":0.481635034}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":29.458334,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":41.36001,"y":0.1,"z":5.83826876}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local10","delay":32.4583321,"time":2.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":50.8255157,"y":0.1,"z":3.96676755}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"invokemethod","go":"Local10","delay":20.458334,"time":0,"easeType":0,"customEase":null,"strings":["Entrenador","Pase"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Local4","val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.44,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null},{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.39,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"sendmessage","go":"Local11","delay":29.458334,"time":0,"easeType":0,"customEase":null,"strings":["RegatearA"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":11,"val_bool":false,"val_int":0,"val_float":0,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":"Visitante5","val_obj_extra":null,"array":null}]},{"method":"sendmessage","go":"Local11","delay":33.5833321,"time":0,"easeType":0,"customEase":null,"strings":["Chut"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":[{"valueType":2,"val_bool":false,"val_int":0,"val_float":0.45,"val_vect2":null,"val_vect3":null,"val_vect4":null,"val_color":null,"val_rect":null,"val_string":null,"val_obj":null,"val_obj_extra":null,"array":null}]},{"method":"moveto","go":"Local9","delay":0,"time":5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-16.8163223,"y":0.1,"z":-23.150486}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":5,"time":3.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-12.1871319,"y":0.1,"z":-14.5007944}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":8.5,"time":4.04166651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-1.84201157,"y":0.1,"z":-21.5497227}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":12.541667,"time":4.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":4.155073,"y":0.1,"z":-10.0904}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":16.916666,"time":4.95833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.1839161,"y":0.1,"z":-23.80646}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":21.875,"time":3.70833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":24.4201355,"y":0.1,"z":-27.7009583}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":25.583334,"time":3.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.92645,"y":0.1,"z":-18.8167763}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":28.708334,"time":3.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.50253,"y":0.1,"z":-23.1513519}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local9","delay":32.0833321,"time":3.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":43.72485,"y":0.1,"z":-14.60873}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":0,"time":3.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.86584663,"y":0.1,"z":11.3630495}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":3.75,"time":1.58333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.86584663,"y":0.1,"z":11.3630495}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":5.33333349,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-10.62969,"y":0.1,"z":5.73245}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":8.416667,"time":3.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.66768646,"y":0.1,"z":0.0424271}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":11.666667,"time":3.91666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":4.78531027,"y":0.1,"z":10.7412519}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":15.583333,"time":3.20833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":5.865474,"y":0.1,"z":0.124614693}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":18.791666,"time":3.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":10.0943089,"y":0.1,"z":-9.031511}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":22.375,"time":2.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":10.0943089,"y":0.1,"z":-9.031511}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":24.875,"time":3.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":20.05513,"y":0.1,"z":-11.0688782}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":28.375,"time":1.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":20.05513,"y":0.1,"z":-11.0688782}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":29.875,"time":1.83333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.4355011,"y":0.1,"z":-5.8357563}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":31.708334,"time":1.91666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.8420753,"y":0.1,"z":-5.68030167}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local5","delay":33.625,"time":2.29166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":30.35469,"y":0.1,"z":-4.99854}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":0,"time":3.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-14.2461824,"y":0.1,"z":7.11525154}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":3.25,"time":1.29166663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-14.2461824,"y":0.1,"z":7.11525154}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":4.54166651,"time":3.16666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-7.877654,"y":0.1,"z":15.1618242}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":7.70833349,"time":2.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-3.923504,"y":0.1,"z":8.154837}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":10.166667,"time":1.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-3.923504,"y":0.1,"z":8.154837}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":11.666667,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-0.569271743,"y":0.1,"z":-1.40433466}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":14.708333,"time":1.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":3.67375231,"y":0.1,"z":-1.9898802}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":16.458334,"time":0.9583333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":3.67375231,"y":0.1,"z":-1.9898802}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":17.416666,"time":2.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.81554747,"y":0.1,"z":4.8326025}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":19.666666,"time":2.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.379509,"y":0.1,"z":3.052466}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":21.791666,"time":4.66666651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.6038742,"y":0.1,"z":9.773839}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":26.458334,"time":1.29166663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.6038742,"y":0.1,"z":9.773839}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":27.75,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.9297771,"y":0.1,"z":0.7317962}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":30.75,"time":2.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.9297771,"y":0.1,"z":0.7317962}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local6","delay":33.25,"time":2.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":37.1087036,"y":0.1,"z":1.34913909}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":0,"time":4.83333349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-18.8732567,"y":0.1,"z":24.37411}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":4.83333349,"time":4.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-11.538415,"y":0.1,"z":11.6841669}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":9.208333,"time":2.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-11.538415,"y":0.1,"z":11.6841669}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":11.666667,"time":3.29166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-4.008678,"y":0.1,"z":18.7955856}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":14.958333,"time":3.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":3.73888373,"y":0.1,"z":10.9551439}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":18.416666,"time":3.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.7920265,"y":0.1,"z":14.215826}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":22.083334,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":16.42629,"y":0.1,"z":5.27702665}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":24.833334,"time":2.91666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.5286865,"y":0.1,"z":14.4492149}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":27.75,"time":3.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":34.63015,"y":0.1,"z":18.2465038}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Local3","delay":31.416666,"time":4.66666651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":48.4478455,"y":0.1,"z":10.794838}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":0,"time":4.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-11.1851749,"y":0.1,"z":-17.1103039}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":4.25,"time":1.45833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-15.6818218,"y":0.1,"z":-18.8447227}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":5.70833349,"time":1.16666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-15.6818218,"y":0.1,"z":-18.8447227}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":6.875,"time":1.70833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-10.4128742,"y":0.1,"z":-17.36839}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":8.583333,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-3.091722,"y":0.1,"z":-22.5364}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":11.25,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-1.16534579,"y":0.1,"z":-16.8941612}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":13.125,"time":2.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":4.157789,"y":0.1,"z":-10.3745766}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":15.75,"time":1.91666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":9.001782,"y":0.1,"z":-13.1479244}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":17.666666,"time":1.20833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":9.001782,"y":0.1,"z":-13.1479244}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":18.875,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.630352,"y":0.1,"z":-21.1296959}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":21.541666,"time":4,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.1182213,"y":0.1,"z":-25.7258739}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":25.541666,"time":3.16666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.29385,"y":0.1,"z":-16.8469315}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":28.708334,"time":0.9583333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.29385,"y":0.1,"z":-16.8469315}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":29.666666,"time":2.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.6159668,"y":0.1,"z":-20.88648}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante7","delay":32.125,"time":3.20833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":43.21555,"y":0.1,"z":-13.1001167}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":0,"time":3.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-6.30254936,"y":0.1,"z":-4.144703}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":3.875,"time":3.16666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-13.3703022,"y":0.1,"z":2.82208586}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":7.04166651,"time":3.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-1.88426208,"y":0.1,"z":-0.05410418}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":10.625,"time":2.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":8.250841,"y":0.1,"z":-2.573833}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":13.416667,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":16.547699,"y":0.1,"z":-5.9873085}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":16.083334,"time":2.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.67966,"y":0.1,"z":1.684702}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":18.666666,"time":2,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.1849327,"y":0.1,"z":5.97949}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":20.666666,"time":1.20833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":23.9418,"y":0.1,"z":4.205408}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":21.875,"time":2.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":20.4689522,"y":0.1,"z":-2.98865938}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":24,"time":3.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.9347744,"y":0.1,"z":-11.7699165}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":27.375,"time":1.08333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":26.9347744,"y":0.1,"z":-11.7699165}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":28.458334,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":30.0030766,"y":0.1,"z":-2.804586}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":31.125,"time":1.16666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":30.0030766,"y":0.1,"z":-2.804586}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante4","delay":32.2916679,"time":2.95833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":39.82538,"y":0.1,"z":-1.381131}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"sendmessage","go":"Visitante4","delay":5.95833349,"time":0,"easeType":0,"customEase":null,"strings":["Entrar"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":0,"time":4.20833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":3.03838444,"y":0.1,"z":-10.2972965}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":4.20833349,"time":3.45833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-8.837339,"y":0.1,"z":-11.8406487}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":7.66666651,"time":2.29166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-3.103981,"y":0.1,"z":-17.5776463}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":9.958333,"time":2.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":5.793248,"y":0.1,"z":-14.2434826}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":12.75,"time":2.54166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.0747643,"y":0.1,"z":-10.0208921}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":15.291667,"time":1.41666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.8810863,"y":0.1,"z":-6.12570953}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":16.708334,"time":1.70833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.8810863,"y":0.1,"z":-6.12570953}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":18.416666,"time":1.70833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.5367451,"y":0.1,"z":-4.571851}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":20.125,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.04585,"y":0.1,"z":-12.4655333}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":22.875,"time":3.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.23167,"y":0.1,"z":-23.4085979}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":26.666666,"time":0.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.7762871,"y":0.1,"z":-23.6220417}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":27.416666,"time":3.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":29.8021812,"y":0.1,"z":-12.4527884}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":30.916666,"time":0.5833333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":29.8021812,"y":0.1,"z":-12.4527884}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante3","delay":31.5,"time":3.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":38.9936562,"y":0.1,"z":-5.738077}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"sendmessage","go":"Visitante3","delay":12,"time":0,"easeType":0,"customEase":null,"strings":["Entrar"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"sendmessage","go":"Visitante3","delay":20.208334,"time":0,"easeType":0,"customEase":null,"strings":["Entrar"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":0,"time":4.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":2.93956852,"y":0.1,"z":-6.71841}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":4.375,"time":2,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":0.5237264,"y":0.1,"z":-1.15867674}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":6.375,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-4.83974743,"y":0.1,"z":-9.40385}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":9.125,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.87752867,"y":0.1,"z":-10.054081}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":12.208333,"time":3.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":12.2368259,"y":0.1,"z":1.26910019}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":16.083334,"time":3.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.57975,"y":0.1,"z":9.822906}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":19.958334,"time":1.58333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.57975,"y":0.1,"z":9.822906}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":21.541666,"time":3.95833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.45221,"y":0.1,"z":-1.4878422}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":25.5,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.45221,"y":0.1,"z":-1.4878422}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":27.375,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.12286,"y":0.1,"z":7.873291}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":30.416666,"time":2.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.97122,"y":0.1,"z":1.61119008}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante6","delay":32.4583321,"time":3.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":47.2802238,"y":0.1,"z":0.0281421915}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":0,"time":3.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-9.148817,"y":0.1,"z":10.68329}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":3.625,"time":2.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-16.1459713,"y":0.1,"z":17.7180347}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":6.45833349,"time":1,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-16.1459713,"y":0.1,"z":17.7180347}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":7.45833349,"time":2.29166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-10.4996662,"y":0.1,"z":12.5925627}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":9.75,"time":1.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-8.832927,"y":0.1,"z":9.97701}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":10.875,"time":1.29166663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-8.832927,"y":0.1,"z":9.97701}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":12.166667,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.721115,"y":0.1,"z":17.92787}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":14.916667,"time":3.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":4.9822793,"y":0.1,"z":10.1097651}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":18.416666,"time":0.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":4.9822793,"y":0.1,"z":10.1097651}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":19.041666,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":15.119112,"y":0.1,"z":12.28309}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":22.083334,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.7615185,"y":0.1,"z":3.74757433}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":24.833334,"time":2.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":23.4220715,"y":0.1,"z":12.5279179}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":27.666666,"time":0.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":23.4220715,"y":0.1,"z":12.5279179}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":28.291666,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":34.02524,"y":0.1,"z":16.4178925}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante11","delay":31.375,"time":4.70833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":48.7529335,"y":0.1,"z":9.165121}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":0,"time":4.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":5.82245,"y":0.1,"z":3.0138526}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":4.125,"time":1.20833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":5.82245,"y":0.1,"z":3.0138526}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":5.33333349,"time":2.33333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.83103418,"y":0.1,"z":2.915792}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":7.66666651,"time":2.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.9868412,"y":0.1,"z":11.0550232}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":9.916667,"time":1.70833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-2.9868412,"y":0.1,"z":11.0550232}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":11.625,"time":2.16666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":-0.4782024,"y":0.1,"z":2.981473}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":13.791667,"time":0.9583333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":0.5135216,"y":0.1,"z":-0.197581172}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":14.75,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":5.69023752,"y":0.1,"z":-3.25552}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":16.625,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":8.664993,"y":0.1,"z":5.91257}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":19.625,"time":0.7083333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":8.664993,"y":0.1,"z":5.91257}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":20.333334,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":13.62145,"y":0.1,"z":1.73342514}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":22.208334,"time":4.29166651,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.4401073,"y":0.1,"z":9.256135}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":26.5,"time":1.79166663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.4401073,"y":0.1,"z":9.256135}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":28.291666,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":29.763298,"y":0.1,"z":0.420974821}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":31.291666,"time":1.20833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":29.763298,"y":0.1,"z":0.420974821}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante2","delay":32.5,"time":3.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":39.92546,"y":0.1,"z":0.9848049}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":0,"time":4.45833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.50838,"y":0.1,"z":7.46943}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":4.45833349,"time":2.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.50838,"y":0.1,"z":7.46943}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":7.08333349,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":14.67111,"y":0.1,"z":2.20149517}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":10.083333,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":7.47764349,"y":0.1,"z":8.636297}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":13.166667,"time":2.91666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":16.8892174,"y":0.1,"z":11.9146214}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":16.083334,"time":3.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":23.7804413,"y":0.1,"z":0.984149933}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":19.458334,"time":1.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":25.4215775,"y":0.1,"z":-5.31154156}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":21.333334,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.0869675,"y":0.1,"z":-12.0815668}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":24.416666,"time":1.45833337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.0869675,"y":0.1,"z":-12.08157}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":25.875,"time":3.54166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.8706474,"y":0.1,"z":0.814844251}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":29.416666,"time":0.6666667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.8706474,"y":0.1,"z":0.814844251}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":30.083334,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":44.08741,"y":0.1,"z":6.543902}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante9","delay":32.75,"time":2.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":51.4370232,"y":0.1,"z":3.1538887}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"sendmessage","go":"Visitante9","delay":20.416666,"time":0,"easeType":0,"customEase":null,"strings":["Entrar"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":0,"time":1.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.8601341,"y":0.1,"z":16.6132374}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":1.625,"time":3.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.3997173,"y":0.1,"z":16.4986916}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":5.45833349,"time":3.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.49999046,"y":0.1,"z":9.19285}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":9.083333,"time":2.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.49999046,"y":0.1,"z":9.19285}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":11.666667,"time":1.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":1.8392725,"y":0.1,"z":4.655684}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":13.416667,"time":2.16666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":7.06651831,"y":0.1,"z":10.3142128}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":15.583333,"time":3.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":6.531066,"y":0.1,"z":-0.382723123}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":18.708334,"time":3.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":12.1141815,"y":0.1,"z":-11.1293573}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":22.375,"time":2.875,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":12.1141815,"y":0.1,"z":-11.1293573}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":25.25,"time":3.20833325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.5623283,"y":0.1,"z":-10.9883194}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":28.458334,"time":1.16666663,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":22.5623283,"y":0.1,"z":-10.9883194}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":29.625,"time":2.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.9764957,"y":0.1,"z":-4.84360743}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante10","delay":31.75,"time":4.20833349,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":32.24008,"y":0.1,"z":-4.931166}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":0,"time":2.04166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.1610641,"y":0.1,"z":-11.8336754}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":2.04166675,"time":2.83333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":28.5506153,"y":0.1,"z":-17.0811634}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":4.875,"time":3.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.7985954,"y":0.1,"z":-8.352376}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":8,"time":3.25,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":11.8497648,"y":0.1,"z":-15.149436}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":11.25,"time":0.5833333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":11.8497648,"y":0.1,"z":-15.149436}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":11.833333,"time":1.83333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.25209,"y":0.1,"z":-16.9771671}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":13.666667,"time":3.54166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":11.0849094,"y":0.1,"z":-5.15153}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":17.208334,"time":5.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":24.840229,"y":0.1,"z":-19.8732052}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":22.333334,"time":4.125,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":40.6017,"y":0.1,"z":-22.1696758}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":26.458334,"time":3.08333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":35.7557564,"y":0.1,"z":-10.7869}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":29.541666,"time":2.75,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":43.39997,"y":0.1,"z":-10.694087}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante8","delay":32.2916679,"time":3,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":50.6277542,"y":0.1,"z":-5.31587648}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"sendmessage","go":"Visitante8","delay":22.708334,"time":0,"easeType":0,"customEase":null,"strings":["Entrar"],"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":null,"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":0,"time":4.5,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.8406715,"y":0.1,"z":-2.48100853}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":4.5,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":21.8406715,"y":0.1,"z":-2.48100853}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":7.16666651,"time":3.79166675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":9.952849,"y":0.1,"z":-1.65430915}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":10.958333,"time":1.83333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":9.952849,"y":0.1,"z":-1.65430915}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":12.791667,"time":2.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.1985054,"y":0.1,"z":-4.32755661}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":15.458333,"time":2.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":14.2572126,"y":0.1,"z":3.42061424}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":18.041666,"time":0.9583333,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":14.2572126,"y":0.1,"z":3.42061424}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":19,"time":2.58333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.2731876,"y":0.1,"z":-5.478785}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":21.583334,"time":0.7916667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":18.2731876,"y":0.1,"z":-5.478785}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":22.375,"time":2.375,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":25.7313938,"y":0.1,"z":-10.3111525}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":24.75,"time":2.33333325,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":27.8755627,"y":0.1,"z":-17.7219486}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":27.083334,"time":1.58333337,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":30.1315861,"y":0.1,"z":-12.4971676}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":28.666666,"time":2.625,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.09679,"y":0.1,"z":-4.54128838}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":31.291666,"time":0.7916667,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":36.50908,"y":0.1,"z":-1.92936718}],"vect2s":null,"colors":null,"rects":null,"eventParams":null},{"method":"moveto","go":"Visitante5","delay":32.0833321,"time":3.66666675,"easeType":21,"customEase":[],"strings":null,"stringsExtra":null,"floats":null,"floatsExtra":null,"bools":null,"ints":null,"longs":null,"doubles":null,"path":[{"x":49.2112,"y":0.1,"z":-2.58775115}],"vect2s":null,"colors":null,"rects":null,"eventParams":null}]}'
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!114 &11400046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f78bc9f3400480faaf04130f8dae3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tactica: 0
+  Target: {fileID: 0}
+  ActionTarget: {fileID: 0}
+  Dorsal: 0
+  MaxSpeed: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100008}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

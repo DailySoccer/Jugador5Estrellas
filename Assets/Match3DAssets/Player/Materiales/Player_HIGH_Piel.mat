@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Player_HIGH_Piel
+  m_Shader: {fileID: 4800000, guid: f5d3452da497a7e4089eea6e57fe4901, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 06285cb9ff9c7fe409d1c7309555fcc2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 36a645c8dff50d542bf92d4c20cf02dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b3f34f45d4a5fe64fb36124b8ae75aaf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LUT
+        second:
+          m_Texture: {fileID: 2800000, guid: cc90a732ad112a541100162a44295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2b455fb156396cb45b093d3778f3a4d7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CurveM
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b3f34f45d4a5fe64fb36124b8ae75aaf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 2.39686608
+      data:
+        first:
+          name: _SpecInt
+        second: .430000007
+      data:
+        first:
+          name: _Fresnel
+        second: .942307711
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
+      data:
+        first:
+          name: _FillAmmount
+        second: .567164183
+      data:
+        first:
+          name: _ISI
+        second: .270000011
+      data:
+        first:
+          name: _GM
+        second: .689999998
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .656716406, g: .656716406, b: .656716406, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .248886153, g: .291599363, b: .305970132, a: 1}
+      data:
+        first:
+          name: _KColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FillColor
+        second: {r: .651000023, g: .493000001, b: .36500001, a: 1}
+      data:
+        first:
+          name: _BackColor
+        second: {r: .101999998, g: .1294, b: .419999987, a: 1}
