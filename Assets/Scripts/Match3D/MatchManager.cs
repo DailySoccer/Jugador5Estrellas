@@ -447,8 +447,14 @@ namespace FootballStar.Match3D
             // Metemos al narrador hasta que llegue una accion interactiva o se temine el partido.
             Camera.main.cullingMask = (1 << 5) | (1 << 8);
             NarratorUI.Instance.gameObject.SetActive(true);
-            yield return StartCoroutine(CameraFade.FadeCoroutine(true, 1.0f, 0.0f));
-            yield return StartCoroutine(ManoloLama.Instance.Narrador());
+				{
+					Debug.Log("<color=orange><b>fade in anim</b></color>");
+					yield return StartCoroutine(CameraFade.FadeCoroutine(true, 1.0f, 0.0f));
+				}
+				{
+					Debug.Log("<color=yellow><b>execute match play</b></color>");
+					yield return StartCoroutine(ManoloLama.Instance.Narrador());
+				}
             if (ManoloLama.Instance.mInteractiveType != InteractiveType.End)
             {
                yield return StartCoroutine(CameraFade.FadeCoroutine(false, 1.0f, 0.0f));
@@ -552,6 +558,7 @@ namespace FootballStar.Match3D
 				NarratorUI.Instance.Flush();
 				MatchEnd();
 			}
+			Debug.Log("<color=blue>cycle end</color>");
       }
 
       void ShowBegin()
