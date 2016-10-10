@@ -110,22 +110,22 @@ namespace FootballStar.Common
 		void CalculateQualityLevelIOS()
 		{
 			// http://docs.unity3d.com/Documentation/ScriptReference/iPhoneGeneration.html
-			var iOSGen = iPhone.generation;
+			var iOSGen = UnityEngine.iOS.Device.generation;
 						
 			// Good is 3, Fastest 0
-			if (iOSGen < iPhoneGeneration.iPhone4) 			// TODO: Prohibir si < iPhone4
+			if (iOSGen < UnityEngine.iOS.DeviceGeneration.iPhone4) 			// TODO: Prohibir si < iPhone4
 			{
 	        	mOwnQualityLevel = 0;
 			}
-	    	else if (iOSGen < iPhoneGeneration.iPhone4S)	// iPhone4, iPodTouch4Gen, iPad2
+			else if (iOSGen < UnityEngine.iOS.DeviceGeneration.iPhone4S)	// iPhone4, iPodTouch4Gen, iPad2
 			{
 	        	mOwnQualityLevel = 1;
 			}
-	    	else if (iOSGen < iPhoneGeneration.iPhone5)		// iPhone4S, iPad3Gen
+			else if (iOSGen < UnityEngine.iOS.DeviceGeneration.iPhone5)		// iPhone4S, iPad3Gen
 			{
 				mOwnQualityLevel = 3;
 			}
-			else if (iOSGen <= iPhoneGeneration.iPhone5C)	// iPhone5, iPodTouch5Gen, iPadMini1Gen, iPad4Gen
+			else if (iOSGen <= UnityEngine.iOS.DeviceGeneration.iPhone5C)	// iPhone5, iPodTouch5Gen, iPadMini1Gen, iPad4Gen
 			{
 				mOwnQualityLevel = 4;
 			}
