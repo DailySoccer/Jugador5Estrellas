@@ -33,6 +33,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -49,8 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FacebookInitialized: 0
   FBPublishInstall: 0
-  DifficultyRange: .100000001
-  FinalVersion: 0
+  DifficultyRange: 0.1
+  FinalVersion: 1
   AllMatchesUnlocked: 0
   LoadSaveModeJSON: 1
   SkipTutorial: 0
@@ -67,27 +68,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameSounds:
   - SoundDef: 0
-    Volume: .25
+    Volume: 0.25
     Audios:
     - {fileID: 8300000, guid: eee50197504a2294fbdc2f283af91f90, type: 3}
   - SoundDef: 1
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: 8f0f08e7672447b499c79d501b8a82f3, type: 3}
   - SoundDef: 2
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: dece668bdd0bb5d44b9a0598ec93e910, type: 3}
   - SoundDef: 3
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: bb60dd9ed8c4a114b92eb86746a314cd, type: 3}
   - SoundDef: 4
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: c200b258c49da78419d0966f87e51a41, type: 3}
   - SoundDef: 5
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 392fd0d06b72b7d4891650872ec472fe, type: 3}
   - SoundDef: 6
@@ -99,7 +100,7 @@ MonoBehaviour:
     Audios:
     - {fileID: 8300000, guid: 577fb6fb0c5ac6042b66f7ec26fa686c, type: 3}
   - SoundDef: 8
-    Volume: .600000024
+    Volume: 0.6
     Audios:
     - {fileID: 8300000, guid: 75d4693456f9a39419509437cfa2d2e6, type: 3}
   - SoundDef: 9
@@ -115,12 +116,12 @@ MonoBehaviour:
     Audios:
     - {fileID: 8300000, guid: 5db7a48feed64e54fbfe2a9bb2ae5aad, type: 3}
   - SoundDef: 12
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: f0625a17df7cd734bb451420e2311e78, type: 3}
     - {fileID: 8300000, guid: 40f183a7b61a53543b7ca698410840ff, type: 3}
   - SoundDef: 13
-    Volume: .300000012
+    Volume: 0.3
     Audios:
     - {fileID: 8300000, guid: ff7c24c000156ad46ad98f5bef7d1993, type: 3}
     - {fileID: 8300000, guid: da1c156e093b27747b62aa611af39c56, type: 3}
@@ -128,16 +129,16 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 26f1e6df8d961f240a44522628f15048, type: 3}
     - {fileID: 8300000, guid: 603b1fe68f17ac94b814937fde4e4440, type: 3}
   - SoundDef: 14
-    Volume: .200000003
+    Volume: 0.2
     Audios:
     - {fileID: 8300000, guid: 5beb2eb9a52c2f04f9080fb90ccf6036, type: 3}
     - {fileID: 8300000, guid: 72904c7f9c8673a499d6e5ada191c521, type: 3}
   - SoundDef: 15
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 290d28d22d893ce4d8d41b25fe89630d, type: 3}
   - SoundDef: 16
-    Volume: .800000012
+    Volume: 0.8
     Audios:
     - {fileID: 8300000, guid: 412e3deda3d1b7445925ac03cb4cc641, type: 3}
     - {fileID: 8300000, guid: 2facf6351f9e9494885061ce5bce6339, type: 3}
@@ -146,11 +147,11 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 2dfb8c045d2ecd74fb45095ed7cdfe80, type: 3}
     - {fileID: 8300000, guid: 0159796776a35884a80f0326acb33279, type: 3}
   - SoundDef: 17
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 255dc6c9bfe3df448afda7c58774fb1f, type: 3}
   - SoundDef: 18
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 029885ea9d0d0cd49b11ce17f3109bdf, type: 3}
   - SoundDef: 19
@@ -158,17 +159,17 @@ MonoBehaviour:
     Audios:
     - {fileID: 8300000, guid: 5c3c3a57a926e40428fa24a9e4044d80, type: 3}
   - SoundDef: 20
-    Volume: .600000024
+    Volume: 0.6
     Audios:
     - {fileID: 8300000, guid: 005c8d07bfcb8ee4088c39aae7538ad5, type: 3}
     - {fileID: 8300000, guid: dcfd206729c4ca147a0ea9725e3a82c9, type: 3}
     - {fileID: 8300000, guid: 40d2da7953c0074488ce39eb6b248269, type: 3}
   - SoundDef: 21
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: be61b22c88df2b648a879d60a165d092, type: 3}
   - SoundDef: 22
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 6f339095f27f03f4d9a2e76759611371, type: 3}
   - SoundDef: 23
@@ -176,35 +177,35 @@ MonoBehaviour:
     Audios:
     - {fileID: 8300000, guid: 392fd0d06b72b7d4891650872ec472fe, type: 3}
   - SoundDef: 24
-    Volume: .25
+    Volume: 0.25
     Audios:
     - {fileID: 8300000, guid: 2d8372a6e75fe844a84ff8e87c568f1b, type: 3}
   - SoundDef: 25
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: dae56cbeb72da6d4aa08d51981755da7, type: 3}
   - SoundDef: 26
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: de672459048b87c4dafc1a2c9ec329e7, type: 3}
   - SoundDef: 27
-    Volume: .5
+    Volume: 0.5
     Audios:
     - {fileID: 8300000, guid: 48675c7991143ed41a53004752d00a7c, type: 3}
   - SoundDef: 28
-    Volume: .600000024
+    Volume: 0.6
     Audios:
     - {fileID: 8300000, guid: 264e2f7beeb4a4d47bb93cf0fbf8a96f, type: 3}
   - SoundDef: 29
-    Volume: .0500000007
+    Volume: 0.05
     Audios:
     - {fileID: 8300000, guid: 55753392555f78943aedd76fbad63f8b, type: 3}
   - SoundDef: 30
-    Volume: .300000012
+    Volume: 0.3
     Audios:
     - {fileID: 8300000, guid: 291068757de875242beba27fcfb6fc12, type: 3}
   - SoundDef: 31
-    Volume: .400000006
+    Volume: 0.4
     Audios:
     - {fileID: 8300000, guid: e3bf3bed9f8427d4c985c0daec345f3c, type: 3}
   - SoundDef: 32
@@ -216,15 +217,15 @@ MonoBehaviour:
     Audios:
     - {fileID: 8300000, guid: a19834288f6146e4fa1c9d5ab4a2c87e, type: 3}
   - SoundDef: 34
-    Volume: .200000003
+    Volume: 0.2
     Audios:
     - {fileID: 8300000, guid: 06a782a110afebf4fa0521f364785849, type: 3}
   - SoundDef: 35
-    Volume: .400000006
+    Volume: 0.4
     Audios:
     - {fileID: 8300000, guid: dc5ac6544f0b09f47a57d422e7c8bb28, type: 3}
   - SoundDef: 36
-    Volume: .600000024
+    Volume: 0.6
     Audios:
     - {fileID: 8300000, guid: 4776976f452899f4bbbf354adc62c071, type: 3}
   - SoundDef: 99
@@ -342,4 +343,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
-  m_IsExploded: 1
