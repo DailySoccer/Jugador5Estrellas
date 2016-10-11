@@ -547,8 +547,8 @@ namespace FootballStar.Match3D
                AnimatorTimeline.Stop();
             */
          }
-			if (ManoloLama.Instance.MatchFinished)
-			{
+			//if (ManoloLama.Instance.MatchFinished)
+			//{
 				Camera.main.cullingMask = cullingMask;
 				Screen.sleepTimeout = SleepTimeout.SystemSetting;
 				// Hasta aqui ///////////////////////////////////////////////////////////////////////////////////            
@@ -557,7 +557,7 @@ namespace FootballStar.Match3D
 
 				NarratorUI.Instance.Flush();
 				MatchEnd();
-			}
+			//}
 			Debug.Log("<color=blue>cycle end</color>");
       }
 
