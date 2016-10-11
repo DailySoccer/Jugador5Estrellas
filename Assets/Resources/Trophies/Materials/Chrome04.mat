@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Chrome04
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 54aa71a8e855526459285d98aa9ae8ef, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -138,7 +138,7 @@ Material:
       second: 1
     - first:
         name: _Shininess
-      second: 2.701721
+      second: 5.8
     - first:
         name: _SmoothnessTextureChannel
       second: 0
