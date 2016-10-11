@@ -102,7 +102,7 @@ namespace FootballStar.Match3D {
 			if (mMainModel != null)
 			{
 				// Si no tenemos energia o estamos en alguna fase del tutorial, no permitimos repetir
-				if ( mMainModel.CanIPlayMatches() && mMainModel.Player.TutorialStage == TutorialStage.DONE )
+				if (/* mMainModel.CanIPlayMatches() && */mMainModel.Player.TutorialStage == TutorialStage.DONE )
 				{
 					StartCoroutine(AnimateCoordX(ReloadButtonHandle, ReloadButtonHandle.localPosition.x + 220.0f, 0.150f));
 				}
@@ -221,7 +221,7 @@ namespace FootballStar.Match3D {
 			if ( mMainModel != null ) {
 				EnergyStuffContainer.SetActive(true);
 				EnergyChangedValueLabel.color = Color.green;
-				mMainModel.Player.AddEnergy(mMainModel.Player.EnergyCostPerMatch);
+				//mMainModel.Player.AddEnergy(mMainModel.Player.EnergyCostPerMatch);
 				EnergyChangedValueLabel.text = (mMainModel.Player.EnergyCostPerMatch > 0 ? "+" : "") + mMainModel.Player.EnergyCostPerMatch.ToString();
 				EnergyChangedValueLabel.GetComponent<Animation>().Play();
 

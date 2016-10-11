@@ -223,7 +223,7 @@ namespace FootballStar.Manager.Model
 			// Tentative: Quiza deberia ser la suma global
 			return CurrentTier.Sponsors.AddSponsorshipBonuses();
 		}
-
+		/*
 		public int CheckEnergyRecharge()
 		{
 			// Tras la carga, reponemos 1 unidad de energia por cada 6 minutos
@@ -240,7 +240,7 @@ namespace FootballStar.Manager.Model
 			
 			return energyAdded;
 		}
-		
+
 		public void AddEnergy( int amount )
 		{
 			if ( amount != 0 )
@@ -249,12 +249,12 @@ namespace FootballStar.Manager.Model
 				LastEnergyUse = DateTime.Now;
 			}
 			// Evento de Menu: Sin energía	
-			/*if(CurrentEnergy == 0)
+			/ *if(CurrentEnergy == 0)
 			{
 				MixPanel.SendEventToMixPanel(AnalyticEvent.NO_ENERGY);
-			}*/
+			}* /
 		}
-
+		*/
 		int mCurrentSaveVersion = -1;
 		List<Tier> mTiers;
 		Improvements mImprovements;

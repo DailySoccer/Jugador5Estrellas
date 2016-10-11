@@ -17,7 +17,7 @@ namespace FootballStar.Manager.Model
 	{
 		public int Money { get; set; }
 		public int Fans { get; set; }
-		public float EnergyPercent { get; set; }
+		//public float EnergyPercent { get; set; }
 		public Tier CurrentTier	 { get; set; }
 	}
 
@@ -36,13 +36,13 @@ namespace FootballStar.Manager.Model
 		public int DiffMoney { get; set; }
 		public int DiffFans { get; set; }
 	}
-	
+	/*
 	public class EnergyChangedEventArgs : EventArgs
 	{
 		public float RemainEnergy { get; set; }
 		public float EnergyCost { get; set; }
 	}
-
+	*/
 	public class MainModel : MonoBehaviour
 	{
 		[HideInInspector]public bool  FacebookInitialized = false;
@@ -62,7 +62,7 @@ namespace FootballStar.Manager.Model
 
 		public event EventHandler<LastMatchResultEventArgs> OnLastMatchResult;
 		
-		public event EventHandler<EnergyChangedEventArgs> OnEnergyChanged;
+		//public event EventHandler<EnergyChangedEventArgs> OnEnergyChanged;
 
         public string Nick { get { return mPlayer.Nick; }
             set {
@@ -79,12 +79,12 @@ namespace FootballStar.Manager.Model
 			}
 		}
 
-		
+		/*
 		public float PlayerRemainEnergy
 		{
 			get { return mPlayer.CurrentEnergy; }
 		}
-
+		*/
 		public Genetsis Genetsis {
 			get { return mGenetsis; }
 		}
@@ -147,12 +147,12 @@ namespace FootballStar.Manager.Model
 				OnModelChanged(this, new MondelChangedEventArgs{
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
-					EnergyPercent = mPlayer.EnergyPercent,
+					//EnergyPercent = mPlayer.EnergyPercent,
 					CurrentTier = CurrentTier
 				});
 			
 			// Coroutina para el update de la energia mientras el juego esta activo
-			StartCoroutine (EnergyUpdateCoroutine());
+			//StartCoroutine (EnergyUpdateCoroutine());
 			mSessionStart = DateTime.Now;
 		}
 		
@@ -163,7 +163,7 @@ namespace FootballStar.Manager.Model
 				OnModelChanged(this, new MondelChangedEventArgs{
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
-					EnergyPercent = mPlayer.EnergyPercent,
+					//EnergyPercent = mPlayer.EnergyPercent,
 					CurrentTier = CurrentTier
 				});
 		}
@@ -177,14 +177,14 @@ namespace FootballStar.Manager.Model
 					OnModelChanged(this, new MondelChangedEventArgs{
 						Money =  (OnLastMatchResult == null) ? mPlayer.Money :  mPlayer.Money - mMatchBridge.TotalMoneyEarned,
 						Fans =   (OnLastMatchResult == null) ? mPlayer.Fans  :  mPlayer.Fans  - mMatchBridge.TotalFansEarned,
-						EnergyPercent = mPlayer.EnergyPercent,
+						//EnergyPercent = mPlayer.EnergyPercent,
 						CurrentTier = CurrentTier
 					});
 				
 				if (OnLastMatchResult != null)
 				{
 					OnLastMatchResult(this, new LastMatchResultEventArgs { DiffMoney = mMatchBridge.TotalMoneyEarned, DiffFans = mMatchBridge.TotalFansEarned }  );
-					mCanUpdatePlayerEnergy = true;
+					//mCanUpdatePlayerEnergy = true;
 				}
 			}
 			
@@ -192,15 +192,15 @@ namespace FootballStar.Manager.Model
 			Resources.UnloadUnusedAssets();
 			GC.Collect();
 		}
-		
+		/*
 		public bool CanIPlayMatches()
 		{
 			return mPlayer.CurrentEnergy >= -mPlayer.EnergyCostPerMatch;				
 		}
-		
+		*/
 		public void PlayMatch(Match match)
 		{
-			StartCoroutine( ConsumeEnergyAndPlayMatchCoroutine(match) );
+			StartCoroutine( PlayMatchCoroutine(match) );
 		}
 		/*
 		public void PlayTutorial()
@@ -332,13 +332,13 @@ namespace FootballStar.Manager.Model
 				mPlayer.InitAfterDeserialization();
 				
 				// Tras cargar el juego, permitimos que se checkee la recarga de energia.
-				mCanUpdatePlayerEnergy = true;	
+				//mCanUpdatePlayerEnergy = true;	
 				
 				if (OnModelChanged != null)
 					OnModelChanged(this, new MondelChangedEventArgs{
 						Money = mPlayer.Money,
 						Fans = mPlayer.Fans,
-						EnergyPercent = mPlayer.EnergyPercent,
+						//EnergyPercent = mPlayer.EnergyPercent,
 						CurrentTier = CurrentTier
 					});
 			}
@@ -369,7 +369,7 @@ namespace FootballStar.Manager.Model
 				OnModelChanged(this, new MondelChangedEventArgs{
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
-					EnergyPercent = mPlayer.EnergyPercent,
+					//EnergyPercent = mPlayer.EnergyPercent,
 					CurrentTier = CurrentTier
 				});
 
@@ -395,7 +395,7 @@ namespace FootballStar.Manager.Model
 			if (OnFansChanged != null)
 				OnFansChanged(this, new FansChangedEventArgs(){Amount = amount});	
 		}
-		
+		/*
 		public void AddEnergyUnit(int amount)
 		{
 			mPlayer.AddEnergy(amount);
@@ -408,7 +408,7 @@ namespace FootballStar.Manager.Model
 				});
 				OnEnergyChanged(this, new EnergyChangedEventArgs(){ RemainEnergy = mPlayer.CurrentEnergy, EnergyCost = amount * 0.1f });			
 		}
-				
+		*/
 		public void BuyImprovement(ImprovementItem theItem)
 		{
 			var moneyBefore = Player.Money;
@@ -448,7 +448,7 @@ namespace FootballStar.Manager.Model
 					OnModelChanged(this, new MondelChangedEventArgs{
 						Money = mPlayer.Money + theItem.Price,
 						Fans = mPlayer.Fans,
-						EnergyPercent = mPlayer.EnergyPercent,
+						//EnergyPercent = mPlayer.EnergyPercent,
 						CurrentTier = CurrentTier
 					});
 
@@ -473,7 +473,7 @@ namespace FootballStar.Manager.Model
 				OnModelChanged(this, new MondelChangedEventArgs{
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
-					EnergyPercent = mPlayer.EnergyPercent,
+					//EnergyPercent = mPlayer.EnergyPercent,
 					CurrentTier = CurrentTier
 				});
 		}
@@ -526,18 +526,18 @@ namespace FootballStar.Manager.Model
 		static private string[] DIFF_NAMES = new string[] { "BAJA", "MEDIA", "ALTA", "EXTREMA" };
 
 		// Coroutina que se llama cada vez que vamos a jugar un partido
-		IEnumerator ConsumeEnergyAndPlayMatchCoroutine(Match match)
+		IEnumerator PlayMatchCoroutine(Match match)
 		{
 			var uiCamera = GameObject.FindGameObjectWithTag("UICamera").GetComponent<UICamera>();
 			// Si estamos en el tutorial no consumimos energia.
 			if( mPlayer.TutorialStage != TutorialStage.FRIENDLY_EXPLANATION && mPlayer.TutorialStage != TutorialStage.CUP_EXPLANATION )
 			{
-				mPlayer.AddEnergy( mPlayer.EnergyCostPerMatch );
-				OnEnergyChanged(this, new EnergyChangedEventArgs(){ RemainEnergy = mPlayer.CurrentEnergy, EnergyCost = mPlayer.EnergyCostPerMatch * 0.1f });	
+				//mPlayer.AddEnergy( mPlayer.EnergyCostPerMatch );
+				//OnEnergyChanged(this, new EnergyChangedEventArgs(){ RemainEnergy = mPlayer.CurrentEnergy, EnergyCost = mPlayer.EnergyCostPerMatch * 0.1f });	
 				OnModelChanged(this, new MondelChangedEventArgs{
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
-					EnergyPercent = mPlayer.EnergyPercent,
+					//EnergyPercent = mPlayer.EnergyPercent,
 					CurrentTier = CurrentTier
 				});
 
@@ -550,7 +550,7 @@ namespace FootballStar.Manager.Model
 			uiCamera.enabled = false;
 			yield return new WaitForSeconds(1f); // Tiempo maximo para que se vea la animacion de la energia antes de empezar el partido.
 			uiCamera.enabled = true;
-			mCanUpdatePlayerEnergy = false;
+			//mCanUpdatePlayerEnergy = false;
 			
 			mLastMatchPlayed = match;
 			mMatchBridge.CurrentMatchDefinition = match.Definition;
@@ -571,7 +571,7 @@ namespace FootballStar.Manager.Model
 
 			mMatchLoader.LoadMatch();
 		}
-
+		/*
 		// Coroutina que se llama cada segundo
 		IEnumerator EnergyUpdateCoroutine()
 		{
@@ -590,7 +590,7 @@ namespace FootballStar.Manager.Model
 				yield return new WaitForSeconds(1.0f);
 			}
 		}
-	
+		*/
 		void OnApplicationPause(bool suspended)
 		{
 			if (suspended) 
@@ -615,7 +615,7 @@ namespace FootballStar.Manager.Model
 
 		Player mPlayer;
 		
-		bool mCanUpdatePlayerEnergy = true;
+		//bool mCanUpdatePlayerEnergy = true;
 		
 		MatchLoader mMatchLoader;
 		MatchBridge mMatchBridge;		

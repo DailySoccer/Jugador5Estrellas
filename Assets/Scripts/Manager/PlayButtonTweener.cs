@@ -14,7 +14,7 @@ public class PlayButtonTweener : MonoBehaviour {
 	// Update is called once per frame
 	void OnClick () 
 	{
-		if( mMainModelComponent.CanIPlayMatches() )
+		//if( mMainModelComponent.CanIPlayMatches() )
 		 	AMTween.MoveBy( gameObject, AMTween.Hash("time", 0.5f, "x", 0.65f, "easetype","easeInOutBack" ) );
 	}
 	

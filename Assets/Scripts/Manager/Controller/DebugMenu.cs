@@ -41,7 +41,7 @@ namespace FootballStar.Manager
 		{
 			mMainModel.PlayPerformanceMatch();
 		}
-		
+		/*
 		public void OnAddEnergyClick()
 		{
 			mMainModel.AddEnergyUnit(1);
@@ -51,7 +51,7 @@ namespace FootballStar.Manager
 		{
 			mMainModel.AddEnergyUnit(-1);
 		}
-
+		*/
 		public void OnAddMoneyClick()
 		{
 			mMainModel.AddMoney(1000);

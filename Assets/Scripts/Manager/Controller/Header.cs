@@ -16,15 +16,15 @@ namespace FootballStar.Manager
 	{
 		public GameObject  ButtonBack;
 		public GameObject  HomePanel;
-		public GameObject  YouNeedEnergyScreen;
+		//public GameObject  YouNeedEnergyScreen;
 		public GameObject  YouNeedToImprovePrefab;
 
 		public UILabel     SkillLabel;
 		public UILabel     TierLabel;
 		
-		public UILabel     EnergyChangeLabel;
-		public UILabel     EnergyTimerLabel;
-		public ProgressBar EnergyProgressBar;		
+		//public UILabel     EnergyChangeLabel;
+		//public UILabel     EnergyTimerLabel;
+		//public ProgressBar EnergyProgressBar;		
 
 		public UILabel     FansLabel;
 		public GameObject  FansChangeContainer;		
@@ -47,7 +47,7 @@ namespace FootballStar.Manager
 			mMainModel.OnMoneyChanged    += HandleOnMoneyChanged;
 			mMainModel.OnFansChanged     += HandleOnFansChanged;
 			mMainModel.OnLastMatchResult += HandleOnLastMatchResult;
-			mMainModel.OnEnergyChanged   += HandleOnEnergyChange;
+			//mMainModel.OnEnergyChanged   += HandleOnEnergyChange;
 			
 			mPlayerHigh = GameObject.Find("Player_High@MainMenu");
 			mCancha = GameObject.FindGameObjectWithTag("Cancha");
@@ -62,14 +62,14 @@ namespace FootballStar.Manager
 			mMainModel.OnMoneyChanged    -= HandleOnMoneyChanged;
 			mMainModel.OnFansChanged     -= HandleOnFansChanged;
 			mMainModel.OnLastMatchResult -= HandleOnLastMatchResult;
-			mMainModel.OnEnergyChanged   -= HandleOnEnergyChange;
+			//mMainModel.OnEnergyChanged   -= HandleOnEnergyChange;
 		}
 
 		void HandleOnModelChanged(object sender, MondelChangedEventArgs e)
 		{
 			MoneyLabel.text 			= e.Money.ToString();
 			FansLabel.text 				= e.Fans.FormatAsMoney();
-			EnergyProgressBar.Percent 	= e.EnergyPercent;
+			//EnergyProgressBar.Percent 	= e.EnergyPercent;
 			SkillLabel.text				= MainModel.FormatVal(mMainModel.Player.Skill);
 			TierLabel.text 				= e.CurrentTier.Definition.Name.ToUpper();
 			SetupHudForSelectedTeam ();
@@ -127,7 +127,7 @@ namespace FootballStar.Manager
 		bool isMatchDifficulGraterThan(FootballStar.Common.MatchDefinition matchDef, FootballStar.Common.MatchBridge.Difficulty diff) {
 			return ((int)mMainModel.GlobalDifficultyIndex (matchDef) > (int)diff);
 		}
-			
+		/*	
 		void HandleOnEnergyChange(object sender, EnergyChangedEventArgs e)
 		{
 			if(e.RemainEnergy > 0)
@@ -137,7 +137,7 @@ namespace FootballStar.Manager
 				ShowEnergyChangeEffect( (int)(e.EnergyCost / 0.1f) );
 			EnergyProgressBar.MiddlePercent = EnergyProgressBar.Percent - e.EnergyCost;
 		}	
-
+		*/
 		IEnumerator ShowIncrementsEarnedCoroutine(LastMatchResultEventArgs e)
 		{			
 			if (e.DiffMoney != 0) {
@@ -151,8 +151,8 @@ namespace FootballStar.Manager
 			}
 
 			yield return new WaitForSeconds (FansChangeContainer.GetComponent<Animation>().clip.length + 1.5f );
-			if(mMainModel.PlayerRemainEnergy <= 0)
-				PutOutOfEnergyScreen();
+			//if(mMainModel.PlayerRemainEnergy <= 0)
+			//	PutOutOfEnergyScreen();
 		}
 
 		public void OnBackButtonClicked()
@@ -266,7 +266,7 @@ namespace FootballStar.Manager
 			Vector3 positionTo = uiCam.WorldToScreenPoint(itemWolrdPosition);
 			return new Vector3( positionTo.x, positionTo.y, depth);	
 		}
-
+		/*
 		private void ShowEnergyChangeEffect(int amount)  
 		{
 			if(amount != 0)
@@ -280,7 +280,7 @@ namespace FootballStar.Manager
 					mParticleManager.ShowEnergyParticle();
 			}
 		}
-
+		*/
 		bool IsOverlapedScreen() {
 			if (mMainModel.Player.TutorialStage == TutorialStage.CONTROLS_EXPLANATION)
 				return true;
@@ -292,6 +292,7 @@ namespace FootballStar.Manager
 		
 		void Update()
 		{
+			/*
 			//Actualizacion del timer que aparece sobre la EnergyProgressBar
 			UpdateEnergyTimer = (EnergyProgressBar.Percent <= 0);
 			
@@ -309,7 +310,7 @@ namespace FootballStar.Manager
 			else
 				EnergyProgressBar.MiddlePercent = EnergyProgressBar.Percent;
 
-
+			*/
 			if (Input.GetKeyUp (KeyCode.Escape)) {
 				// Si hay una ventana abierta, hay que cerrarla primero con su boton "Aceptar"
 				MessageOverlapDialog[] msgs = GameObject.FindObjectsOfType (typeof(MessageOverlapDialog)) as MessageOverlapDialog[];
@@ -317,7 +318,7 @@ namespace FootballStar.Manager
 						OnBackButtonClicked ();
 			}
 		}
-
+		/*
 		void PutOutOfEnergyScreen()
 		{
 			// Creamos nuestro mensajito explicativoSetupHudForSelectedTeam
@@ -338,7 +339,7 @@ namespace FootballStar.Manager
 			Destroy(mNeedEnergyMessageOverlap);
 			UpdateEnergyTimer = true;
 		}
-
+		*/
         public void SetupHudForSelectedTeam() {
 
 			PlayerTeamBadge.spriteName = FootballStar.Manager.Model.TierDefinition.GetTeamName(mMainModel.SelectedTeamId) + "_Small";
@@ -379,10 +380,10 @@ namespace FootballStar.Manager
 			mNeedToImproveMessageOverlap = null;
 		}
 		
-		private bool UpdateEnergyTimer;
+		//private bool UpdateEnergyTimer;
 		
 		private GameObject mNeedToImproveMessageOverlap;
-		private GameObject mNeedEnergyMessageOverlap;
+		//private GameObject mNeedEnergyMessageOverlap;
 		
 		private GameObject mPlayerHigh;
 		private GameObject mStadium;

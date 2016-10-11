@@ -67,16 +67,16 @@ namespace FootballStar.Manager
 			if (mMainModel.Player.TutorialStage == TutorialStage.CONTROLS_EXPLANATION && !mMainModel.Player.TouchControlsTutorialAlreadyShown) {
 				StartCoroutine(ShowControlsTut());
 			} else {
-				if (mMainModel.CanIPlayMatches ()) {
+				//if (mMainModel.CanIPlayMatches ()) {
 					mMainModel.PlayMatch (MatchToPlay);			
-				} else {
+				/*} else {
 					// Creamos nuestro mensajito explicativo
 					mMessageOverlap = NGUITools.AddChild (this.gameObject, YouNeedEnergyScreen);
 					mMessageOverlap.GetComponentInChildren<UIButtonMessage> ().target = this.gameObject;
 					mMessageOverlap.GetComponentInChildren<YouNeedEnergy> ().LastPlay = mMainModel.Player.LastEnergyUse;
 					mMessageOverlap.GetComponentInChildren<YouNeedEnergy> ().OnEnergyCountdownEnds += HandleOnEnergyCountdownEnds;
 					mMessageOverlap.transform.localPosition = new Vector3 (0, 0, -1000);
-				}
+				}*/
 			}
 		}
 				
