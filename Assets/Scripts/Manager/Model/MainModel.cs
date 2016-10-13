@@ -148,7 +148,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					//EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 			
 			// Coroutina para el update de la energia mientras el juego esta activo
@@ -164,7 +164,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					//EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 		}
 		
@@ -178,7 +178,7 @@ namespace FootballStar.Manager.Model
 						Money =  (OnLastMatchResult == null) ? mPlayer.Money :  mPlayer.Money - mMatchBridge.TotalMoneyEarned,
 						Fans =   (OnLastMatchResult == null) ? mPlayer.Fans  :  mPlayer.Fans  - mMatchBridge.TotalFansEarned,
 						//EnergyPercent = mPlayer.EnergyPercent,
-						CurrentTier = CurrentTier
+						CurrentTier = mPlayer.CurrentTier
 					});
 				
 				if (OnLastMatchResult != null)
@@ -339,7 +339,7 @@ namespace FootballStar.Manager.Model
 						Money = mPlayer.Money,
 						Fans = mPlayer.Fans,
 						//EnergyPercent = mPlayer.EnergyPercent,
-						CurrentTier = CurrentTier
+						CurrentTier = mPlayer.CurrentTier
 					});
 			}
 			else {
@@ -370,7 +370,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					//EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 
 			GameObject header = GameObject.Find ("Header");
@@ -404,7 +404,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 				OnEnergyChanged(this, new EnergyChangedEventArgs(){ RemainEnergy = mPlayer.CurrentEnergy, EnergyCost = amount * 0.1f });			
 		}
@@ -449,7 +449,7 @@ namespace FootballStar.Manager.Model
 						Money = mPlayer.Money + theItem.Price,
 						Fans = mPlayer.Fans,
 						//EnergyPercent = mPlayer.EnergyPercent,
-						CurrentTier = CurrentTier
+						CurrentTier = mPlayer.CurrentTier
 					});
 
 				if (OnMoneyChanged != null)
@@ -474,7 +474,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					//EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 		}
 		
@@ -538,7 +538,7 @@ namespace FootballStar.Manager.Model
 					Money = mPlayer.Money,
 					Fans = mPlayer.Fans,
 					//EnergyPercent = mPlayer.EnergyPercent,
-					CurrentTier = CurrentTier
+					CurrentTier = mPlayer.CurrentTier
 				});
 
 			}
@@ -584,7 +584,7 @@ namespace FootballStar.Manager.Model
 							Money = mPlayer.Money,
 							Fans = mPlayer.Fans,
 							EnergyPercent = mPlayer.EnergyPercent,
-							CurrentTier = CurrentTier
+							CurrentTier = mPlayer.CurrentTier
 						});	
 				}
 				yield return new WaitForSeconds(1.0f);

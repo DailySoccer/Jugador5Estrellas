@@ -38,7 +38,7 @@ namespace FootballStar.Common
 				if (CurrentMatchPrevResult == null)
 					return true;
 				
-				return ReturnMatchResult.NumPrecisionBallsEndOfMatch > CurrentMatchPrevResult.NumPrecisionBallsEndOfMatch;
+				return ReturnMatchResult.NumPrecisionBallsEndOfMatch > CurrentMatchPrevResult.Stars;
 			}
 		}
 		
@@ -61,7 +61,7 @@ namespace FootballStar.Common
 				if (IsResultFirstTimeWon)
 					return ReturnMatchResult.FansToAdd;
 				else if (IsResultImproved) // Hemos vuelto a ganar?: Tenemos que recompensar la diferencia en bolas
-					return MatchResult.FANS_PER_PRECISION_BALL * (ReturnMatchResult.NumPrecisionBallsEndOfMatch - CurrentMatchPrevResult.NumPrecisionBallsEndOfMatch);
+					return MatchResult.FANS_PER_PRECISION_BALL * (ReturnMatchResult.NumPrecisionBallsEndOfMatch - CurrentMatchPrevResult.Stars);
 				else
 					return 0;
 			}
