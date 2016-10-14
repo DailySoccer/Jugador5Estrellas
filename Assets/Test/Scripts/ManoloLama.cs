@@ -146,6 +146,7 @@ public class ManoloLama : MonoBehaviour
 	public GameObject Panel;
 	public float Size = 0.1f;
 	public float MessageTime = 1;
+	public float MessageInteractionTime = 2;
 	public int max = 8;
 
 	bool _Abort = false;
@@ -478,7 +479,8 @@ public class ManoloLama : MonoBehaviour
 			{
 				if (cur.mUser)
 					mAudioGameController.PlayMatchStartSound();
-				yield return StartCoroutine(WaitForSeconds(MessageTime));
+				bool interactive = cur.mType == InteractiveType.Pass || cur.mType == InteractiveType.Shot || cur.mType == InteractiveType.Dribling;
+				yield return StartCoroutine(WaitForSeconds(interactive ? MessageInteractionTime  : MessageTime));
 			}
 		}
 		if (!string.IsNullOrEmpty(reaction) && (!cur.mUser || reevaluate))
