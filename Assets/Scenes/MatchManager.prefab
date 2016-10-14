@@ -4654,7 +4654,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1279, y: 488, z: 0}
+  m_Size: {x: 1280, y: 488, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!111 &11100000
 Animation:
@@ -9641,6 +9641,8 @@ MonoBehaviour:
   SkippingButtonLabel: {fileID: 11441972}
   MyScore: 0
   OpponentScore: 0
+  fontRegular: {fileID: 11400000, guid: bc21130b842114a9280176d973002b73, type: 2}
+  fontBold: {fileID: 11400000, guid: 8e7f784340fdf40a4b9c808b04a16ca2, type: 2}
 --- !u!114 &11462530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9688,7 +9690,7 @@ MonoBehaviour:
     absolute: 0
   mColor: {r: 0.91764706, g: 0.14117648, b: 0.12941177, a: 1}
   mPivot: 1
-  mWidth: 1279
+  mWidth: 1280
   mHeight: 110
   mDepth: 0
   autoResizeBoxCollider: 0
@@ -10111,7 +10113,7 @@ MonoBehaviour:
   startingRenderQueue: 3004
   mAlpha: 1
   mClipping: 4
-  mClipRange: {x: -1, y: -2, z: 1279.2118, w: 484}
+  mClipRange: {x: -1, y: -2, z: 1279.5181, w: 484}
   mClipSoftness: {x: 1, y: 1}
   mDepth: 11
 --- !u!114 &11462554
@@ -10222,7 +10224,7 @@ MonoBehaviour:
     absolute: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 7
-  mWidth: 1279
+  mWidth: 1280
   mHeight: 128
   mDepth: 20
   autoResizeBoxCollider: 0
@@ -10289,7 +10291,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3007
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -10628,7 +10630,7 @@ MonoBehaviour:
     absolute: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 1279
+  mWidth: 1280
   mHeight: 488
   mDepth: 20
   autoResizeBoxCollider: 1
@@ -10711,7 +10713,7 @@ MonoBehaviour:
     absolute: 0
   mColor: {r: 0, g: 0, b: 0, a: 0.47058824}
   mPivot: 4
-  mWidth: 1279
+  mWidth: 1280
   mHeight: 720
   mDepth: 19
   autoResizeBoxCollider: 0
@@ -10778,7 +10780,7 @@ MonoBehaviour:
   alwaysOnScreen: 0
   anchorOffset: 0
   renderQueue: 0
-  startingRenderQueue: 3008
+  startingRenderQueue: 3010
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}

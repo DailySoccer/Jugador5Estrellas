@@ -15,6 +15,9 @@ public class NarratorUI : MonoBehaviour {
     public int MyScore = 0;
     public int OpponentScore = 0;
 
+	public UIFont fontRegular;
+	public UIFont fontBold;
+
 
     void Awake()
     {
@@ -62,7 +65,7 @@ public class NarratorUI : MonoBehaviour {
 	}
 
     GameObject LastSlot;
-    public void AddMessage(string minute, string text, bool isGoal, NarratorMessageType type, bool reevaluate) {
+	public void AddMessage(string minute, string text, bool isGoal, NarratorMessageType type, bool reevaluate, bool isPlayerInteraction) {
         if (isGoal) {
             if (type == NarratorMessageType.LocalPlayerMessage) MyScore++;
             else if (type == NarratorMessageType.VisitantPlayerMessage) OpponentScore++;
@@ -74,6 +77,14 @@ public class NarratorUI : MonoBehaviour {
         LastSlot.name = "slot_" + slotCount;
 
         LastSlot.GetComponent<narratorSlot> ().SetUpSlot (minute, text, isGoal, type);
+
+		UILabel slotText = LastSlot.transform.FindChild ("TextoJugada").GetComponent<UILabel> ();
+		slotText.bitmapFont = isPlayerInteraction ? fontBold : fontRegular;
+		slotText.transform.localPosition = new Vector3 (
+			slotText.transform.localPosition.x,
+			slotText.transform.localPosition.y + (isPlayerInteraction ? 10.0f : 0.0f),
+			slotText.transform.localPosition.z
+		);
 
 		NGUITools.SetActive(LastSlot, true);
 		_grid.Reposition ();

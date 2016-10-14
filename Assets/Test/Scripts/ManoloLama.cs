@@ -22,9 +22,9 @@ public enum InteractiveType
 
 public class ManoloLama : MonoBehaviour
 {
-	private static string[] PassInteractive = { "Oportunidad de [ffa500]PASE[-] para {0}.", "Y lo consigue", "Pero la pierde" };
-	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO[-] para {0}.", "GOOOOOL, un disparo perfecto", "Perdio una clara oportunidad" };
-	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE[-] para {0}.", "y se va solo", "Pero, el {1} recupera la posesion" };
+	private static string[] PassInteractive = { "Oportunidad de [ffa500]PASE", "Y lo consigue", "Pero la pierde" };
+	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO", "GOOOOOL, un disparo perfecto", "Perdio una clara oportunidad" };
+	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE", "y se va solo", "Pero, el {1} recupera la posesion" };
 	
 	private static string[,] PassLogs = { { "Buena combinación del {0} saliendo desde atrás.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
 		{ "Monta la contra el {0}.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
@@ -331,6 +331,8 @@ public class ManoloLama : MonoBehaviour
 		}
 		string action = "";
 		string reaction = "";
+		bool isPlayerInteraction = false;
+
 
 		if (cur.mUser)
 		{
@@ -338,12 +340,15 @@ public class ManoloLama : MonoBehaviour
 			{
 				case InteractiveType.Pass:
 					action = PassInteractive[0];
+					isPlayerInteraction = true;
 					break;
 				case InteractiveType.Shot:
 					action = ShotInteractive[0];
+					isPlayerInteraction = true;
 					break;
 				case InteractiveType.Dribling:
 					action = DribblingInteractive[0];
+					isPlayerInteraction = true;
 					break;
 			}
 			_previousInteractive = true;
@@ -474,7 +479,7 @@ public class ManoloLama : MonoBehaviour
 		{
 			StringBuilder.Length = 0;
 			StringBuilder.Append(action);
-			NarratorUI.Instance.AddMessage(tiempo, string.Format(StringBuilder.ToString(), a, b), false, type, false);
+			NarratorUI.Instance.AddMessage(tiempo, string.Format(StringBuilder.ToString(), a, b), false, type, false, isPlayerInteraction);
 			if (!Skipping || cur.mUser)
 			{
 				if (cur.mUser)
@@ -487,7 +492,7 @@ public class ManoloLama : MonoBehaviour
 		{
 			StringBuilder.Length = 0;
 			StringBuilder.Append(reaction);
-			NarratorUI.Instance.AddMessage(null, string.Format(StringBuilder.ToString(), a, b), cur.mExito && cur.mType == InteractiveType.Shot, type, false);
+			NarratorUI.Instance.AddMessage(null, string.Format(StringBuilder.ToString(), a, b), cur.mExito && cur.mType == InteractiveType.Shot, type, false, isPlayerInteraction);
 			if (!cur.mUserCopy && cur.mExito && cur.mType == InteractiveType.Shot)
 				GameObject.FindGameObjectWithTag("MatchManager").GetComponent<MatchManager>().Gol();
 
