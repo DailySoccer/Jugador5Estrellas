@@ -25,8 +25,8 @@ namespace FootballStar.Match3D {
 
 		public UIImageButton ShareInFacebookButton;
 		
-		public GameObject EnergyStuffContainer;
-		public UILabel EnergyChangedValueLabel;
+		//public GameObject EnergyStuffContainer;
+		//public UILabel EnergyChangedValueLabel;
 		
 		public List<GameObject> Balls = new List<GameObject>();
 		public List<UILabel> FansLabels = new List<UILabel>();
@@ -219,12 +219,13 @@ namespace FootballStar.Match3D {
 		private IEnumerator OnReloadCoroutine()
 		{
 			if ( mMainModel != null ) {
+				/*
 				EnergyStuffContainer.SetActive(true);
 				EnergyChangedValueLabel.color = Color.green;
-				//mMainModel.Player.AddEnergy(mMainModel.Player.EnergyCostPerMatch);
+				mMainModel.Player.AddEnergy(mMainModel.Player.EnergyCostPerMatch);
 				EnergyChangedValueLabel.text = (mMainModel.Player.EnergyCostPerMatch > 0 ? "+" : "") + mMainModel.Player.EnergyCostPerMatch.ToString();
 				EnergyChangedValueLabel.GetComponent<Animation>().Play();
-
+				*/
 				var uiCamera = GameObject.FindGameObjectWithTag("UICamera").GetComponent<UICamera>();
 				uiCamera.enabled = false;
 				yield return new WaitForSeconds(0.5f);
