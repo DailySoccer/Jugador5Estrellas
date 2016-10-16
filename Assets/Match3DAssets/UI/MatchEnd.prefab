@@ -2782,8 +2782,6 @@ MonoBehaviour:
   TotalValueLabel: {fileID: 11400046}
   VictoryLabel: {fileID: 11400078}
   ShareInFacebookButton: {fileID: 11400110}
-  EnergyStuffContainer: {fileID: 100094}
-  EnergyChangedValueLabel: {fileID: 11400004}
   Balls:
   - {fileID: 100030}
   - {fileID: 100012}
