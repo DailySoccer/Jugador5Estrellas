@@ -23,8 +23,8 @@ public enum InteractiveType
 public class ManoloLama : MonoBehaviour
 {
 	private static string[] PassInteractive = { "Oportunidad de [ffa500]PASE[-]{0}.", "Y lo consigue", "Pero la pierde" };
-	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO[-]{0}.", "GOOOOOL, un disparo perfecto", "Perdio una clara oportunidad" };
-	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE[-]{0}.", "y se va solo", "Pero, el {1} recupera la posesion" };
+	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO[-]{0}.", "GOOOOOL, un disparo perfecto", "Perdió una clara oportunidad" };
+	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE[-]{0}.", "y se va solo", "Pero, el {1} recupera la posesión" };
 	
 	private static string[,] PassLogs = { { "Buena combinación del {0} saliendo desde atrás.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
 		{ "Monta la contra el {0}.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
@@ -63,7 +63,7 @@ public class ManoloLama : MonoBehaviour
 		{ "Lanzamiento directo del {1}", "A la grada. Alto ese golpeo", "Y despeja el portero." },
 		{ "Golpea con la pierna derecha", "A la grada. Alto ese golpeo", "Despeja el portero con los puños." },
 		{ "Golpea con la pierna derecha", "¡UYYY! Qué precisión, pero se va fuera el balón", "Pero el portero detiene sin problemas" },
-		{ "Golpea con la pierna derecha", "Le dió mal. Se lamenta el jugador", "Y despeja el portero." },
+		{ "Golpea con la pierna derecha", "Le dio mal. Se lamenta el jugador", "Y despeja el portero." },
 		{ "Dura entrada del {0}", "Y tarjeta amarilla para el {0}", "Pero el colegiado deja seguir" },};
 	
 	private static string[,] ShotLogs = { { "Prueba el {0} desde la frontal", "Toca en un defensor y GOOOL", "Al palo. Qué oportunidad" },
@@ -78,7 +78,7 @@ public class ManoloLama : MonoBehaviour
 		{ "Balón al interior del área", "El defensa despeja mal, GOOOL. En propia puerta", "Despeja la defensa" },
 		{ "Balón al interior del área", "Remata dentro del área pequeña y GOOOOOOL", "Y despeja el portero" },
 		{ "Prueba el {0} desde la frontal", " Muy ajustado y ….¡GOOOL!", "Al palo. Qué oportunidad" }, 
-		{ "Prueba el {0} desde la frontal", "GOOOOOL. Que bien golpeó el balón. Precioso Tanto", "Pero metió la pierna un defesa" },
+		{ "Prueba el {0} desde la frontal", "GOOOOOL. Que bien golpeó el balón. Precioso Tanto", "Pero metió la pierna un defensa" },
 		{ "Balón al hueco del {0}", "Remata de primeras, y GOOOOOL", "Que se pierde por la línea de fondo" },
 		{ "Balón al hueco del {0}", "Perfecto movimiento del delantero y …. GOOOOOL", "Y el delantero no llega por poco" },
 		{ "Pase de la muerte del {0}", "Remata de primeras, y GOOOOOL", "Pero nadie acompañaba la jugada" }, 
@@ -91,14 +91,14 @@ public class ManoloLama : MonoBehaviour
 		{ "Balón al hueco del {0}", "Remata totalmente solo, y GOOOOOL", "Y el delantero no llega por poco" },
 		{ "Zurdazo desde la frontal del {0}", "GOOOOOL", "Al segundo anfiteatro" }};
 	
-	private static string[,] DribblingLogs = { { "Intento de regate del {0}", "Gran regate, se queda solo", "Pero el defensa corta el balon" },
-		{ "Intento de regate del {0}", "Supera a su marcador", "Pero se dejo atras el balón" },
+	private static string[,] DribblingLogs = { { "Intento de regate del {0}", "Gran regate, se queda solo", "Pero el defensa corta el balón" },
+		{ "Intento de regate del {0}", "Supera a su marcador", "Pero se dejo atrás el balón" },
 		{ "Intento de regate del {0} ", "Lo consigue, y continua el ataque", "Pero no tiene éxito" },
 		{ "Encara al defensor el delantero de {0}", "Y lo deja atrás. ¡Qué rápido es!", "Pero el defensa estuvo rápido" },
 		{ "Avanza con el cuero el central del {0}", "Que inicia muy bien la jugada de ataque.", "Pero se hace un lío y pierde el balón" },
 		{ "Gran movimiento del delantero del {0} ", "Que recibe un pase perfecto.", "Pero no llega al pase, demasiado fuerte" },
 		{ "Autopase del jugador del {0}", "Qué velocidad. Avanza sólo.", "Pero se le va el balón" },
-		{ "Intenta irse de su defensor", "Gran regate, se queda solo", "Pero pierde el balon" }};
+		{ "Intenta irse de su defensor", "Gran regate, se queda solo", "Pero pierde el balón" }};
 
 	public class Momento
 	{
