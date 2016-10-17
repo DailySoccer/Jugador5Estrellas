@@ -22,9 +22,9 @@ public enum InteractiveType
 
 public class ManoloLama : MonoBehaviour
 {
-	private static string[] PassInteractive = { "Oportunidad de [ffa500]PASE[-] para {0}.", "Y lo consigue", "Pero la pierde" };
-	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO[-] para {0}.", "GOOOOOL, un disparo perfecto", "Perdio una clara oportunidad" };
-	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE[-] para {0}.", "y se va solo", "Pero, el {1} recupera la posesion" };
+	private static string[] PassInteractive = { "Oportunidad de [ffa500]PASE[-]{0}.", "Y lo consigue", "Pero la pierde" };
+	private static string[] ShotInteractive = { "Oportunidad de [ffa500]TIRO[-]{0}.", "GOOOOOL, un disparo perfecto", "Perdio una clara oportunidad" };
+	private static string[] DribblingInteractive = { "Oportunidad de [ffa500]REGATE[-]{0}.", "y se va solo", "Pero, el {1} recupera la posesion" };
 	
 	private static string[,] PassLogs = { { "Buena combinación del {0} saliendo desde atrás.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
 		{ "Monta la contra el {0}.", "Y avanza el delantero del {0} sólo", "Y finalmente se le escapa el balón" },
