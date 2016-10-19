@@ -92,7 +92,7 @@ public class ManoloLama : MonoBehaviour
 		{ "Zurdazo desde la frontal del {0}", "GOOOOOL", "Al segundo anfiteatro" }};
 	
 	private static string[,] DribblingLogs = { { "Intento de regate del {0}", "Gran regate, se queda solo", "Pero el defensa corta el balón" },
-		{ "Intento de regate del {0}", "Supera a su marcador", "Pero se dejo atrás el balón" },
+		{ "Intento de regate del {0}", "Supera a su marcador", "Pero se dejó atrás el balón" },
 		{ "Intento de regate del {0} ", "Lo consigue, y continua el ataque", "Pero no tiene éxito" },
 		{ "Encara al defensor el delantero de {0}", "Y lo deja atrás. ¡Qué rápido es!", "Pero el defensa estuvo rápido" },
 		{ "Avanza con el cuero el central del {0}", "Que inicia muy bien la jugada de ataque.", "Pero se hace un lío y pierde el balón" },

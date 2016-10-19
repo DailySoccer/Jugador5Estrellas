@@ -26,16 +26,7 @@
 			  <action android:name="com.android.vending.INSTALL_REFERRER" />
 		  </intent-filter>
 	  </receiver>
-  <!-- 
-   <service android:name="com.ad4screen.sdk.A4SService" android:label="A4S Service" android:process=":A4SService" >
-	 <meta-data android:name="com.ad4screen.partnerid" android:value="mobileup98f0ee9f47a29b3" />
-	 <meta-data android:name="com.ad4screen.privatekey" android:value="002b85bdff7e2c49b00829d17309c62a9b2fe1a0" />
-	</service>
-   -->
 
-	<activity android:name="com.ad4screen.sdk.A4SPopup" android:theme="@style/com_ad4screen_sdk_theme_popup" android:taskAffinity="" />
-	<activity android:name="com.ad4screen.sdk.A4SInterstitial" android:theme="@style/com_ad4screen_sdk_theme_interstitial" /> 
-	
   <!--<meta-data android:name="AppsFlyerDevKey" android:value="8u6EnwrydmGbjY7SJTSTuc"/>-->
   
   </application>
@@ -53,17 +44,4 @@
   <uses-feature android:name="android.hardware.touchscreen" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
-  <compatible-screens>
-    <!--
-    <screen android:screenSize="normal" android:screenDensity="hdpi" />
-    <screen android:screenSize="large" android:screenDensity="hdpi" />
-    <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
-  -->
-    <screen android:screenSize="normal" android:screenDensity="xhdpi" />
-    <screen android:screenSize="large" android:screenDensity="xhdpi" />
-    <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
-    <screen android:screenSize="normal" android:screenDensity="480" />
-    <screen android:screenSize="large" android:screenDensity="480" />
-    <screen android:screenSize="xlarge" android:screenDensity="480" />
-  </compatible-screens>
 </manifest>
