@@ -130,14 +130,15 @@ PlayerSettings:
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
-  iPhoneSplashScreen: {fileID: 2800000, guid: 337ea565f01483e4d870e527e5c5340a, type: 3}
+  iPhoneSplashScreen: {fileID: 2800000, guid: a16e6e4cd501b487eae5e3b79a9e6f47, type: 3}
   iPhoneHighResSplashScreen: {fileID: 2800000, guid: a16e6e4cd501b487eae5e3b79a9e6f47,
     type: 3}
-  iPhoneTallHighResSplashScreen: {fileID: 2800000, guid: 181e74c5cbf064da38f76bd49fcbd28a,
+  iPhoneTallHighResSplashScreen: {fileID: 2800000, guid: a16e6e4cd501b487eae5e3b79a9e6f47,
     type: 3}
   iPhone47inSplashScreen: {fileID: 0}
   iPhone55inPortraitSplashScreen: {fileID: 0}
-  iPhone55inLandscapeSplashScreen: {fileID: 0}
+  iPhone55inLandscapeSplashScreen: {fileID: 2800000, guid: 181e74c5cbf064da38f76bd49fcbd28a,
+    type: 3}
   iPadPortraitSplashScreen: {fileID: 0}
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 2800000, guid: d742ba95227774655a63dea4d04aa126,
