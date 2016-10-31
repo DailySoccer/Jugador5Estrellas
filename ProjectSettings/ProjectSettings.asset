@@ -96,13 +96,13 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.mahou.jugador5estrellas
-  bundleVersion: 1.0.5
+  bundleVersion: 1.0.6
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   xboxOneDisableKinectGpuReservation: 0
   singlePassStereoRendering: 0
   protectGraphicsMemory: 0
-  AndroidBundleVersionCode: 5
+  AndroidBundleVersionCode: 6
   AndroidMinSdkVersion: 14
   AndroidPreferredInstallLocation: 0
   aotOptions: 
